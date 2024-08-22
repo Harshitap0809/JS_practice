@@ -138,3 +138,5 @@ console.log(stringNumber); //10
 // Example 10:
 // A number can be converted to a string using the String() function.
 // The resulting value is a string representation of the original number. In this case, the number 10 is converted to the string "10".
+
+// Reference : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
