@@ -44,3 +44,9 @@ for (let i = 0; i < cart.length; i++) {
     console.log(`Updated Quantity of ${item.name}: ${cart[i].quantity}`);
   }
 }
+
+
+// Creates a Persistent Variable: Declaring let totalCartPrice = 0; 
+// outside the loop creates a single variable that the code can keep updating throughout the entire loop.
+// This means that each time an item is processed, the variable doesn't reset—instead, it keeps adding the prices up, 
+// helping track the total price across all items.
